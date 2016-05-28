@@ -1,0 +1,52 @@
+.hideMe{
+	display: none;
+}
+
+body{
+	background-image: url("../images/the-background-1415772_1920.jpg");
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+	text-align: center;
+}
+
+header{
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	float: center;
+}
+
+header h1{
+	font-size: 50px;
+}
+
+.startButton{
+	margin: 5px;
+}
+
+.timeDisplay{
+	margin: 5px;
+}
+
+.questionBox h2{
+	font-size: 1.25em;
+}
+
+#buttonsDiv{
+	text-align: center;
+	border-top: 3px blue;
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+#buttonsDiv button{
+	padding: 8px;
+	margin: 6px;
+	border: 3px;
+}
+
+a:visited{
+	color: black;
+}
+

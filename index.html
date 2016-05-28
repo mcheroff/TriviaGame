@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>It's a Trivia Game!!</title>
+</head>
+<body>
+<div class="wrapper">
+	<header id="header">
+		<h1>~TV Trivia~</h1>
+		<h2 class="timeDisplay"></h2>
+		<button class="startButton">Click to Begin!</button>
+	</header>
+	<div class="main">
+		<div class="allQuestions hideMe">
+			<div class="questionBox">
+				<h2>In the pilot episode of "Broad City," the main characters attempt to get tickets to see which of the following artists in concert?</h2>
+				<form>
+					<input type="radio" name="a0" value="false">Beyonce<br>
+					<input type="radio" name="a0" value="false">Adele<br>
+					<input type="radio" name="a0" value="true">Lil Wayne<br>
+					<input type="radio" name="a0" value="false">Kanye West<br>
+					<input type="radio" name="a0" value="default" checked="checked"/>
+				</form>
+			</div>
+			<div class="questionBox">
+				<h2>In Marvel's "Daredevil," which New York City neighborhood does the story predominatly take place?</h2>
+				<form>
+					<input type="radio" name="a1" value="false">Upper East Side<br>
+					<input type="radio" name="a1" value="true">Hell's Kitchen<br>
+					<input type="radio" name="a1" value="false">Chelsea<br>
+					<input type="radio" name="a1" value="false">East Village<br>
+					<input type="radio" name="a1" value="default" checked="checked"/>
+				</form>
+			</div>
+			<div class="questionBox">
+				<h2>In "Doctor Who," which actor plays the 11th incarnation of The Doctor?</h2>
+				<form>
+					<input type="radio" name="a2" value="false">Peter Capaldi<br>
+					<input type="radio" name="a2" value="false">David Tenant<br>
+					<input type="radio" name="a2" value="false">Christpher Eccleston<br>
+					<input type="radio" name="a2" value="true">Matt Smith<br>
+					<input type="radio" name="a2" value="default" checked="checked"/>
+				</form>
+			</div>
+			<div class="questionBox">
+				<h2>In Netflix's "House of Cards," which political position does Frank Underwood hold within the U.S. government at the start of the series?</h2>
+				<form>
+					<input type="radio" name="a3" value="true">Democratic Majority Whip<br>
+					<input type="radio" name="a3" value="false">Speaker of the House<br>
+					<input type="radio" name="a3" value="false">Vice President<br>
+					<input type="radio" name="a3" value="false">President<br>
+					<input type="radio" name="a3" value="default" checked="checked"/>
+				</form>
+			</div>
+			<div class="questionBox">
+				<h2>In Hulu's "The Mindy Project," which type of doctor is the lead character?</h2>
+				<form>
+					<input type="radio" name="a4" value="false">Oncologist<br>
+					<input type="radio" name="a4" value="false">Cardiologist<br>
+					<input type="radio" name="a4" value="true">OB/GYN<br>
+					<input type="radio" name="a4" value="false">Pediatrition<br>
+					<input type="radio" name="a4" value="default" checked="checked"/>
+				</form>
+			</div>
+			<div id="buttonsDiv">
+				<button class="testAnswerButton" type="submit" value="submit"><a href="#header">Check answers!</a></button>
+				<button class="resetButton">Reset</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
